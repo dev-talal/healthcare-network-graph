@@ -38,7 +38,7 @@ const SelectedProfile = forwardRef<HTMLDivElement>((_, ref) => {
                     <div className="relative">
                         <input
                             type="text"
-                            className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                            className="w-full p-3 border border-gray-300 rounded-lg text-gray-600 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                             placeholder="Search HCP by name..."
                             value={searchTerm}
                             onChange={(e) => setSearchTerm(e.target.value)}
